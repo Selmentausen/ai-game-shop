@@ -1,0 +1,68 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: game_shop_db
+    restart: always
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: gamedb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  ai_service:
+    image: ollama/ollama:latest
+    container_name: game_shop_ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+
+  backend:
+    build: .
+    container_name: game_shop_backend
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+      - ai_service
+    environment:
+      DATABASE_URL: "postgresql://myuser:mypassword@db:5432/gamedb?schema=public"
+      JWT_SECRET: "secret-key-my-ass-123"
+      PAYMENT_SERVICE_URL: "payment_service:50051"
+      OLLAMA_BASE_URL: "http://ai_service:11434"
+    volumes:
+      - ./protos:/app/protos
+      
+  
+  frontend:
+    build: ./frontend
+    container_name: game_shop_frontend
+    restart: always
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_API_URL: "http://localhost:3000/api"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+  
+  payment_service:
+    build: ./payment-service
+    container_name: game_shop_payment
+    restart: always
+    ports:
+      - "50051:50051"
+    volumes:
+      - ./protos:/app/protos
+      - ./payment-service:/app
+      - /app/node_modules
+  
+
+
+volumes:
+  postgres_data:
+  ollama_data:

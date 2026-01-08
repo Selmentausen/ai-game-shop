@@ -1,0 +1,105 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum GameCategory {
+  RPG
+  Shooter
+  Strategy
+  Action
+  Adventure
+  Sports
+  Racing
+}
+
+model Game {
+  id          Int     @id @default(autoincrement())
+  title       String
+  price       Float
+  description String
+  content     String?
+  category    GameCategory
+  releaseYear Int?
+  tags        String[]
+  coverImage  String
+  screenshots String[]
+  reviews     Review[]
+  cartItems   CartItem[]
+  orderItems  OrderItem[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model User {
+  id        Int       @id @default(autoincrement())
+  email     String    @unique
+  password  String
+  name      String?
+  cart      Cart?
+  reviews   Review[]
+  orders    Order[]
+  createdAt DateTime  @default(now())
+}
+
+model Cart {
+  id        Int         @id @default(autoincrement())
+  userId    Int         @unique
+  user      User        @relation(fields: [userId], references: [id])
+  items     CartItem[]
+  updatedAt DateTime    @updatedAt
+}
+
+model CartItem {
+  id        Int      @id @default(autoincrement())
+  cartId    Int
+  cart      Cart     @relation(fields: [cartId], references: [id])
+  gameId    Int
+  game      Game     @relation(fields: [gameId], references: [id])
+  quantity  Int      @default(1)
+  @@unique([cartId, gameId])
+}
+
+model Order {
+  id          Int         @id @default(autoincrement())
+  userId      Int         
+  user        User        @relation(fields: [userId], references: [id])
+  totalAmount Float
+  status      String      @default("PENDING")
+  items       OrderItem[]
+  createdAt   DateTime    @default(now())
+}
+
+model OrderItem {
+  id          Int       @id @default(autoincrement())
+  orderId     Int
+  order       Order     @relation(fields: [orderId],  references: [id])
+  gameId      Int
+  game        Game      @relation(fields: [gameId], references: [id])
+  gameTitle   String
+  gamePrice   Float
+  quantity    Int
+  @@unique([orderId, gameId])
+}
+
+model Review {
+  id        Int       @id @default(autoincrement())
+  text      String
+  rating    Int
+  gameId    Int
+  game      Game      @relation(fields: [gameId], references: [id])
+  userId    Int
+  user      User      @relation(fields: [userId], references: [id])
+  createdAt DateTime  @default(now())
+}

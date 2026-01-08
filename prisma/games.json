@@ -1,0 +1,211 @@
+[
+  {
+    "title": "Elden Ring",
+    "price": 59.99,
+    "description": "The Golden Order has been broken. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
+    "content": "Elden Ring is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. Directed by Hidetaka Miyazaki with worldbuilding by fantasy novelist George R. R. Martin...",
+    "category": "RPG",
+    "releaseYear": 2022,
+    "tags": ["Open World", "Souls-like", "Difficult", "Fantasy"],
+    "coverImage": "https://placehold.co/600x400/222/FFF?text=Elden+Ring",
+    "screenshots": ["https://placehold.co/1920x1080/222/FFF?text=Erdtree"]
+  },
+  {
+    "title": "Call of Duty: Modern Warfare III",
+    "price": 69.99,
+    "description": "In the direct sequel to the record-breaking Call of Duty: Modern Warfare II, Captain Price and Task Force 141 face off against the ultimate threat.",
+    "content": "Combat involves a mix of typical Call of Duty run-and-gun gameplay with new open-combat missions...",
+    "category": "Shooter",
+    "releaseYear": 2023,
+    "tags": ["FPS", "Multiplayer", "Action"],
+    "coverImage": "https://placehold.co/600x400/333/FFF?text=CoD+MW3",
+    "screenshots": ["https://placehold.co/1920x1080/333/FFF?text=Warzone"]
+  },
+  {
+    "title": "Civilization VI",
+    "price": 29.99,
+    "description": "Civilization VI offers new ways to interact with your world, expand your empire across the map, advance your culture, and compete against history's greatest leaders.",
+    "content": "Turn-based strategy game where you attempt to build an empire to stand the test of time...",
+    "category": "Strategy",
+    "releaseYear": 2016,
+    "tags": ["Turn-Based", "Historical", "4X"],
+    "coverImage": "https://placehold.co/600x400/444/FFF?text=Civ+6",
+    "screenshots": ["https://placehold.co/1920x1080/444/FFF?text=Hex+Map"]
+  },
+  {
+    "title": "Forza Horizon 5",
+    "price": 59.99,
+    "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
+    "content": "Forza Horizon 5 is a racing video game set in an open world environment based on a fictional representation of Mexico...",
+    "category": "Racing",
+    "releaseYear": 2021,
+    "tags": ["Open World", "Driving", "Simulation"],
+    "coverImage": "https://placehold.co/600x400/666/FFF?text=Forza+5",
+    "screenshots": ["https://placehold.co/1920x1080/666/FFF?text=Drifting"]
+  },
+  {
+    "title": "FIFA 24 (FC 24)",
+    "price": 69.99,
+    "description": "EA SPORTS FC 24 welcomes you to The World’s Game: the most true-to-football experience ever with HyperMotionV and PlayStyles optimised by Opta.",
+    "content": "Sports simulation game developed by EA Vancouver and EA Romania...",
+    "category": "Sports",
+    "releaseYear": 2023,
+    "tags": ["Soccer", "Multiplayer", "Simulation"],
+    "coverImage": "https://placehold.co/600x400/777/FFF?text=FC+24",
+    "screenshots": ["https://placehold.co/1920x1080/777/FFF?text=Goal"]
+  },
+  {
+    "title": "Baldur's Gate 3",
+    "price": 59.99,
+    "description": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons & Dragons, where your choices shape a tale of fellowship and betrayal.",
+    "content": "Role-playing video game developed and published by Larian Studios...",
+    "category": "RPG",
+    "releaseYear": 2023,
+    "tags": ["CRPG", "Choices Matter", "D&D"],
+    "coverImage": "https://placehold.co/600x400/888/FFF?text=Baldurs+Gate",
+    "screenshots": ["https://placehold.co/1920x1080/888/FFF?text=Dice+Roll"]
+  },
+  {
+    "title": "Hollow Knight",
+    "price": 14.99,
+    "description": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes.",
+    "content": "2D Metroidvania action-adventure game developed and published by Team Cherry...",
+    "category": "Adventure",
+    "releaseYear": 2017,
+    "tags": ["Metroidvania", "Indie", "Difficult"],
+    "coverImage": "https://placehold.co/600x400/999/FFF?text=Hollow+Knight",
+    "screenshots": ["https://placehold.co/1920x1080/999/FFF?text=Platforming"]
+  },
+  {
+    "title": "Valorant",
+    "price": 0.00,
+    "description": "Blend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities.",
+    "content": "Free-to-play first-person tactical hero shooter developed and published by Riot Games...",
+    "category": "Shooter",
+    "releaseYear": 2020,
+    "tags": ["Tactical", "FPS", "Free to Play"],
+    "coverImage": "https://placehold.co/600x400/000/FFF?text=Valorant",
+    "screenshots": ["https://placehold.co/1920x1080/000/FFF?text=Spike+Plant"]
+  },
+  {
+    "title": "Stardew Valley",
+    "price": 14.99,
+    "description": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life.",
+    "content": "Simulation role-playing video game developed by Eric 'ConcernedApe' Barone...",
+    "category": "Strategy",
+    "releaseYear": 2016,
+    "tags": ["Farming", "Relaxing", "Indie"],
+    "coverImage": "https://placehold.co/600x400/AAA/FFF?text=Stardew",
+    "screenshots": ["https://placehold.co/1920x1080/AAA/FFF?text=Crops"]
+  },
+  {
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "price": 59.99,
+    "description": "Step into a world of discovery, exploration, and adventure in The Legend of Zelda: Breath of the Wild, a boundary-breaking new game in the acclaimed series.",
+    "content": "Travel across vast fields, through forests, and to mountain peaks as you discover what has become of the kingdom of Hyrule in this stunning Open-Air Adventure...",
+    "category": "Adventure",
+    "releaseYear": 2017,
+    "tags": ["Open World", "Exploration", "Puzzle"],
+    "coverImage": "https://placehold.co/600x400/123/FFF?text=Zelda+BOTW",
+    "screenshots": ["https://placehold.co/1920x1080/123/FFF?text=Hyrule"]
+  },
+  {
+    "title": "Grand Theft Auto V",
+    "price": 29.99,
+    "description": "When a young street hustler, a retired bank robber and a terrifying psychopath find themselves entangled with some of the most frightening elements of the criminal underworld.",
+    "content": "Grand Theft Auto V offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond...",
+    "category": "Action",
+    "releaseYear": 2013,
+    "tags": ["Open World", "Crime", "Multiplayer"],
+    "coverImage": "https://placehold.co/600x400/321/FFF?text=GTA+V",
+    "screenshots": ["https://placehold.co/1920x1080/321/FFF?text=Los+Santos"]
+  },
+  {
+    "title": "Dark Souls III",
+    "price": 59.99,
+    "description": "As fires fade and the world falls into ruin, journey into a universe filled with more colossal enemies and environments.",
+    "content": "Dark Souls III continues to push the boundaries with the latest, ambitious chapter in the critically-acclaimed and genre-defining series...",
+    "category": "RPG",
+    "releaseYear": 2016,
+    "tags": ["Souls-like", "Difficult", "Dark Fantasy"],
+    "coverImage": "https://placehold.co/600x400/000/FFF?text=Dark+Souls+3",
+    "screenshots": ["https://placehold.co/1920x1080/000/FFF?text=Bonfire"]
+  },
+  {
+    "title": "Apex Legends",
+    "price": 0.00,
+    "description": "Conquer with character in Apex Legends, a free-to-play Hero shooter where legendary characters with powerful abilities team up to battle for fame and fortune.",
+    "content": "Master an ever-growing roster of diverse Legends, deep tactical squad play, and bold new innovations that level up the Battle Royale experience...",
+    "category": "Shooter",
+    "releaseYear": 2019,
+    "tags": ["Battle Royale", "FPS", "Free to Play"],
+    "coverImage": "https://placehold.co/600x400/D00/FFF?text=Apex+Legends",
+    "screenshots": ["https://placehold.co/1920x1080/D00/FFF?text=Kings+Canyon"]
+  },
+  {
+    "title": "NBA 2K24",
+    "price": 69.99,
+    "description": "Grab your squad and experience the past, present, and future of hoops culture in NBA 2K24. Enjoy pure, authentic action and limitless personalized MyPLAYER options.",
+    "content": "Experience a collection of competitive game modes, from MyCAREER to MyTEAM, featuring the latest rosters and historic teams...",
+    "category": "Sports",
+    "releaseYear": 2023,
+    "tags": ["Basketball", "Simulation", "Multiplayer"],
+    "coverImage": "https://placehold.co/600x400/F00/FFF?text=NBA+2K24",
+    "screenshots": ["https://placehold.co/1920x1080/F00/FFF?text=Dunk"]
+  },
+  {
+    "title": "Gran Turismo 7",
+    "price": 69.99,
+    "description": "Gran Turismo 7 brings together the very best features of the Real Driving Simulator. Whether you’re a competitive or casual racer, find your line.",
+    "content": "With the return of classic cars, iconic tracks, and fan-favourite modes like GT Simulation and Sport Mode...",
+    "category": "Racing",
+    "releaseYear": 2022,
+    "tags": ["Simulation", "Driving", "Realistic"],
+    "coverImage": "https://placehold.co/600x400/00D/FFF?text=Gran+Turismo",
+    "screenshots": ["https://placehold.co/1920x1080/00D/FFF?text=Race+Track"]
+  },
+  {
+    "title": "Final Fantasy VII Remake",
+    "price": 69.99,
+    "description": "The world has fallen under the control of the Shinra Electric Power Company. Cloud Strife, a former operative of Shinra's elite SOLDIER unit, turns mercenary.",
+    "content": "A spectacular reimagining of one of the most visionary games ever, the first game in this project is set in the eclectic city of Midgar...",
+    "category": "RPG",
+    "releaseYear": 2020,
+    "tags": ["Story Rich", "JRPG", "Action"],
+    "coverImage": "https://placehold.co/600x400/0BB/FFF?text=FF7+Remake",
+    "screenshots": ["https://placehold.co/1920x1080/0BB/FFF?text=Cloud+Strife"]
+  },
+  {
+    "title": "Minecraft",
+    "price": 29.99,
+    "description": "Prepare for an adventure of limitless possibilities as you build, mine, battle mobs, and explore the ever-changing Minecraft landscape.",
+    "content": "Explore infinite worlds and build everything from the simplest of homes to the grandest of castles. Play in creative mode with unlimited resources or mine deep into the world in survival mode...",
+    "category": "Adventure",
+    "releaseYear": 2011,
+    "tags": ["Sandbox", "Survival", "Building"],
+    "coverImage": "https://placehold.co/600x400/0D0/FFF?text=Minecraft",
+    "screenshots": ["https://placehold.co/1920x1080/0D0/FFF?text=Blocks"]
+  },
+  {
+    "title": "League of Legends",
+    "price": 0.00,
+    "description": "League of Legends is a team-based game with over 140 champions to make epic plays with. Play now for free.",
+    "content": "A multiplayer online battle arena (MOBA) game where two teams of five players battle to destroy the other team's base...",
+    "category": "Strategy",
+    "releaseYear": 2009,
+    "tags": ["MOBA", "Multiplayer", "Competitive"],
+    "coverImage": "https://placehold.co/600x400/DAA/FFF?text=LoL",
+    "screenshots": ["https://placehold.co/1920x1080/DAA/FFF?text=Summoners+Rift"]
+  },
+  {
+    "title": "Assassin's Creed Mirage",
+    "price": 49.99,
+    "description": "Experience the story of Basim, a cunning street thief with nightmarish visions, seeking answers and justice as he navigates the bustling streets of ninth-century Baghdad.",
+    "content": "Become the most versatile Assassin in franchise history. Parkour seamlessly through the city and use the largest assortment of tools to date...",
+    "category": "Action",
+    "releaseYear": 2023,
+    "tags": ["Stealth", "Parkour", "Historical"],
+    "coverImage": "https://placehold.co/600x400/DDD/000?text=AC+Mirage",
+    "screenshots": ["https://placehold.co/1920x1080/DDD/000?text=Baghdad"]
+  }
+]

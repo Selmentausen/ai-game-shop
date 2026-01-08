@@ -1,0 +1,36 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist
+build
+
+# Prisma generated clients (if any local artifacts remain)
+prisma/generated
+
+# Docker volumes and logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.docker/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# The Ollama model volume (Too big for git)
+ollama_data
+postgres_data
